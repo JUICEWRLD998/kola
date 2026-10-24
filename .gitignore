@@ -1,0 +1,18 @@
+# personal learning context stays out of commits (1-start)
+/devpost/learner-profile.md
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# machine-specific skill links (absolute symlinks); .agents/skills is the committed source
+/.claude/skills/
+
+# deps and build output
+node_modules/
+.next/
+dist/
+.vercel/
+*.log
+.DS_Store
